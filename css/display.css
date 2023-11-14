@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css2?family=Shantell+Sans:ital,wght@1,300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Shantell Sans', cursive;
+    box-sizing: border-box;
+}
+body{
+
+    min-height: 100vh;
+    width: 100%;
+    background: url('../pics/3133075.jpg')no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+
+form{
+    display: grid;
+    
+}
+.form-value {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    padding-left: 1px;
+    padding-right: 1px;
+    
+}
+
+.form-box{
+    margin-top: px;
+    position: relative;
+    width: 99.5%;
+    height: 53px;
+    background: transparent;
+    border: 2px solid rgba(255,255,255,0.5);
+    border-radius: 20px;
+    backdrop-filter: blur(15px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+h2{
+    font-size: 2em;
+    color: #fff;
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+.inputbox {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.inputbox input {
+    width: 100%;
+    height: 50px;
+    background: transparent;
+    border: none;
+    outline: none;
+    font-size: 1em;
+    padding:0 35px 0 5px;
+    color: #fff;
+}
+#bar {
+    width: 100%;
+    height: 50px;
+    background: transparent;
+    border: none;
+    outline: none;
+    font-size: 1em;
+    padding: 0 150px 0 150px;
+    text-align: center;
+    color: #fff;
+    /* Add the following lines */
+    transition: opacity 0.5s ease-in-out;
+  }
+  
+#bar:focus::placeholder {
+    opacity: 0;
+    transition: opacity 0.5s ease-in-out;
+}
+
+#submit {
+    height: 50px;
+    background-color: #ffffff71;
+    border: none;
+    border-radius: 20px;
+    font-size: 1em;
+    font-weight: bold;
+    color: #111;
+    padding: 0 20px;
+    cursor: pointer;
+    
+}
+
+#query-display{
+    height: 50px;
+    background-color: #ffffff71;
+    border: none;
+    border-radius: 20px;
+    font-size: 1em;
+    font-weight: bold;
+    color: #111;
+    padding: 0 20px;
+    cursor: pointer;
+}
+
+.cards{
+    width: 100%;
+    text-align: center;
+    margin-bottom: 50px;
+}
+.card{
+    display: inline-block;
+    backdrop-filter: blur(3px);
+    width: 323px;
+    height: auto;
+    margin-top: 50px;
+    margin-bottom:50px;
+    border-radius: 20px;
+    margin: 20px;
+    background-color: rgba(0,0,0,0.5);
+    padding-bottom: 20px;
+}
+
+.img{
+    background-image: url(../pics/on.png);
+    background-position:  center;
+    height: 100%;
+    background-size: cover;
+}
+img{
+    height: 200px;
+
+}
+p{
+    color: rgb(236, 223, 223);
+    font-family: 'Shantell Sans', cursive;
+}
+
+::-webkit-scrollbar{
+    width: 12px;
+}
+::-webkit-scrollbar-thumb{
+    background: #000000;
+    border-radius: 6px;
+}
+::-webkit-scrollbar-thumb:hover{
+    background:linear-gradient( #000000,transparent);
+}
